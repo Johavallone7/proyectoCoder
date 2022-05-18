@@ -14,6 +14,17 @@ body {
 .header{
     grid-area: header;
     background-color: rgba(112, 125, 48);
+} 
+
+.bootstrapMenu {
+    display: flex;
+    padding: 0.3%;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    list-style: none;
+    font-family: 'Lexend Deca', sans-serif !important;
+
 }
 .main{
     grid-area: main;
