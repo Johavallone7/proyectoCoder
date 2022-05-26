@@ -11,23 +11,34 @@
         <link rel="stylesheet" href="./css/estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="contenedor" id="contenedorFondo">
-    <header class="header">
-        <nav class="bloquemenu">
-            <div class="logoReunata">
-                <img src="./img/logo_reunata.com.ar.png" alt="logo_reunata">
-            </div> 
-            <ul class="list-inline list-unstyled mx-1">
-                <!--Menú principal-->
-                <li><a href="./index.html"><u>Inicio</u></a></li>
-                <li><a href="./pages/productos.html"><u>Productos</u></a></li>
-                <li><a href="./pages/comprar.html"><u>¿Como Comprar?</u></a></li>
-                <li><a href="./pages/enviosarg.html"><u>Envíos Argentina</u></a></li>
-                <li><a href="./pages/enviosint.html"><u>Envíos Internacionales</u></a></li>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(112, 125, 48)">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo_reunata.com.ar.png" alt="logo_reunata" width= "300px" justify-content= "flex-start">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/comprar.html">¿Como comprar?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/enviosarg.html">Envíos a Argentina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/enviosint.html">Envíos Internacionales</a>
+            </li>
             </ul>
-        </nav>
-    </header>
-    <main class="main">
+        </div>
+        </div>
+    </nav>
+    <main class="main" >
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
